@@ -77,7 +77,8 @@
     padding: 10px 20px;
 }
 #third-section{
-    margin-top: 5%;
+    width: 85%;
+    margin-top: 10%;
     margin-bottom: 5%;
 }
 .centralized-texts{
@@ -98,7 +99,7 @@
 .item{
     width: 25%;
     border:10px solid white;
-    box-shadow: 5px 5px 50px 50px lightgray;
+    box-shadow: 2px 2px 30px 20px lightgray;
     border-radius: 6%;
 }
 .item img{
@@ -116,4 +117,43 @@
     padding-top: 5%;
     color: #3E3E3E;
 }
-
+#fourth-section{
+    width: 80%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    box-shadow: 2px 2px 30px 20px lightgray;
+    border-radius: 20px;
+}
+.counter-item{
+    padding: 5% 2%;
+    text-align: center;
+}
+.counter-item h2{
+    font-size: 200%;
+    font-weight: 900;
+    color: #3E3E3E;
+    padding-top: 5%;
+}
+.counter-item p{
+    padding-bottom: 10%;
+    padding-top: 5%;
+    color: #3E3E3E;
+}
+footer{
+    text-align: center;
+    background-color: #0B0E17;
+}
+footer h2{
+    font-size: 150%;
+    font-weight: 900;
+    color: grey;
+    padding-top: 2%;
+}
+footer span{
+    color: orange;
+}
+footer p{
+    padding-bottom: 2%;
+    padding-top: 2%;
+    color: white;
+}
