@@ -5,6 +5,29 @@
 .flexible-container{
     display: flex;
 }
+.navbar{
+    text-align: center;
+    background-color:#0B0E17;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    overflow: hidden;
+    margin: 1% 5%; 
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: tomato;
+    font-size: 150%;
+    transition: 0.5s;
+}
+.navbar ul li a:hover{
+    color: white;
+}
+
 #first-section{
     margin-top: 5%;
     margin-bottom: 5%;
