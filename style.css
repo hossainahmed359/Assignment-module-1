@@ -22,14 +22,15 @@
     text-decoration: none;
     color: tomato;
     font-size: 150%;
+    font-weight: 900;
     transition: 0.5s;
 }
 .navbar ul li a:hover{
-    color: white;
+    color: orange;
 }
 
 #first-section{
-    margin-top: 5%;
+    margin-top: 10%;
     margin-bottom: 5%;
     width: 100%;
 }
@@ -66,6 +67,7 @@
 }
 #second-section{
     width: 100%;
+    margin-top: 5%;
     margin-bottom: 5%;
     background-image: url(images/shapes/7.png);
     
