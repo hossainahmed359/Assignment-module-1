@@ -2,13 +2,15 @@
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
 }
-#first-section{
-    margin-top: 5%;
-    width: 100%;
-}
 .flexible-container{
     display: flex;
 }
+#first-section{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 100%;
+}
+
 .text-item{
     margin-top:8%;
 }
@@ -38,4 +40,39 @@
 }
 .photo-item img{
     width: 100%;
+}
+#second-section{
+    width: 100%;
+    margin-bottom: 5%;
+    background-image: url(images/shapes/7.png);
+    
+}
+
+.photo-item-2 img{
+    padding-top: 5%;
+    width: 100%;
+}
+.about-me{
+    padding-top: 7%;
+    width: 30%;
+}
+.about-me h1{
+    font-size: 300%;
+    font-weight: 900;
+    color: black;
+}
+.about-me p{
+    color: gray;
+    margin-top: 3%;
+    margin-bottom: 15%;
+    font-size: 110%;
+}
+.about-me a{
+    text-decoration: none;
+    font-size: 100%;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 20px;
 }
