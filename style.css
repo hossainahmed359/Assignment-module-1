@@ -1,4 +1,40 @@
-*{
+*{ 
     margin: 0 auto;
     font-family: 'Open Sans', sans-serif;
+}
+#first-section{
+    width: 100%;
+}
+.flexible-container{
+    display: flex;
+}
+.text-item{
+    margin-top: 5%;
+    width: 40%;
+}
+.text-item h1{
+    font-size: 350%;
+    font-weight: 900;
+    color: black;
+}
+.text-item span{
+    color: orange;
+}
+.text-item p{
+    color: gray;
+    padding-bottom: 3%;
+    font-size: 110%;
+}
+.text-item a{
+    text-decoration: none;
+    font-size: 100%;
+    color: white;
+    font-weight: 900;
+    border-radius: 30px;
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+.photo img{
+    width: 100%;
 }
